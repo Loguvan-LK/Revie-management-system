@@ -22,7 +22,7 @@ This is a Review Management System built using **Laravel**. The system allows us
 Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/Loguvan-LK/Revie-management-system.git
+git clone https://github.com/Loguvan-LK/Review-management-system.git
 cd review-management
 
 ```
