@@ -1,0 +1,135 @@
+Jan 07 13:58:27 ubuntu-24 systemd[1]: Starting mariadb.service - MariaDB 10.11.8 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 139.[0m
+Jan 07 13:58:27 ubuntu-24 (mariadbd)[1475]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Jan 07 14:13:17 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: start operation timed out. Terminating.[0m
+Jan 07 14:28:17 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: State 'stop-sigterm' timed out. Skipping SIGKILL.[0m
+Jan 07 14:43:04 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Main process exited, code=killed, status=9/KILL[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'killed' and its exit status is 9.[0m
+Jan 07 14:43:04 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'timeout'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'timeout'.[0m
+Jan 07 14:43:04 ubuntu-24 systemd[1]: Stopped mariadb.service - MariaDB 10.11.8 database server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit mariadb.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit mariadb.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4633 and the job result is done.[0m
+Jan 07 14:45:37 ubuntu-24 systemd[1]: Starting mariadb.service - MariaDB 10.11.8 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5223.[0m
+Jan 07 14:45:37 ubuntu-24 (mariadbd)[25739]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Jan 07 14:45:37 ubuntu-24 mariadbd[25739]: 2025-01-07 14:45:37 0 [Warning] Can't create test file '/var/lib/mysql/ubuntu-24.lower-test' (Errcode: 2 "No such file or directory")
+Jan 07 14:45:37 ubuntu-24 mariadbd[25739]: [99B blob data]
+Jan 07 14:45:37 ubuntu-24 mariadbd[25739]: 2025-01-07 14:45:37 0 [ERROR] Aborting
+Jan 07 14:45:37 ubuntu-24 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 07 14:45:37 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 07 14:45:37 ubuntu-24 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 10.11.8 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5223 and the job result is failed.[0m
+Jan 07 14:46:37 ubuntu-24 systemd[1]: Starting mariadb.service - MariaDB 10.11.8 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5306.[0m
+Jan 07 14:46:38 ubuntu-24 (mariadbd)[26425]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Jan 07 14:46:38 ubuntu-24 mariadbd[26425]: 2025-01-07 14:46:38 0 [Warning] Can't create test file '/var/lib/mysql/ubuntu-24.lower-test' (Errcode: 2 "No such file or directory")
+Jan 07 14:46:38 ubuntu-24 mariadbd[26425]: [99B blob data]
+Jan 07 14:46:38 ubuntu-24 mariadbd[26425]: 2025-01-07 14:46:38 0 [ERROR] Aborting
+Jan 07 14:46:38 ubuntu-24 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 07 14:46:38 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 07 14:46:38 ubuntu-24 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 10.11.8 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5306 and the job result is failed.[0m
+Jan 07 14:49:25 ubuntu-24 systemd[1]: Starting mariadb.service - MariaDB 10.11.8 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5396.[0m
+Jan 07 14:49:25 ubuntu-24 (mariadbd)[28822]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Jan 07 14:49:25 ubuntu-24 mariadbd[28822]: 2025-01-07 14:49:25 0 [Warning] Can't create test file '/var/lib/mysql/ubuntu-24.lower-test' (Errcode: 2 "No such file or directory")
+Jan 07 14:49:25 ubuntu-24 mariadbd[28822]: [99B blob data]
+Jan 07 14:49:25 ubuntu-24 mariadbd[28822]: 2025-01-07 14:49:25 0 [ERROR] Aborting
+Jan 07 14:49:25 ubuntu-24 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 07 14:49:25 ubuntu-24 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 07 14:49:25 ubuntu-24 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 10.11.8 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5396 and the job result is failed.[0m
